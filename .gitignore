@@ -1,0 +1,26 @@
+# Unity generated folders
+/Library/
+/Temp/
+/Obj/
+/Logs/
+
+# Auto-generated project files
+/ProjectSettings/ProjectVersion.txt
+
+# Visual Studio / MonoDevelop / Rider files
+*.suo
+*.user
+*.sln
+*.suo
+*.userprefs
+*.pidb
+*.csproj
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
