@@ -348,6 +348,7 @@ GameObject:
   - component: {fileID: 1897968858}
   - component: {fileID: 1897968857}
   - component: {fileID: 1897968856}
+  - component: {fileID: 1897968859}
   m_Layer: 0
   m_Name: Turret
   m_TagString: Untagged
@@ -442,6 +443,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897968854}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1897968859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897968854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b08bea80bada2c4eaa15e1a4a9693b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 8328407936258189220, guid: c1f405258b6f75e42a8cea80d05a732a, type: 3}
+  bulletSpawner: {fileID: 1897968854}
 --- !u!1 &1935626229
 GameObject:
   m_ObjectHideFlags: 0

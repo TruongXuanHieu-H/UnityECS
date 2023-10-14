@@ -12,7 +12,8 @@ namespace Tank
                 bullet = GetEntity(authoring.bullet, TransformUsageFlags.Dynamic),
                 bulletSpawner = GetEntity(authoring.bulletSpawner, TransformUsageFlags.Dynamic),
             });
-            
+
+            AddComponent(entity, new Shooting());
         }
     }
 }

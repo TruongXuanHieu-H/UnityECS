@@ -3,6 +3,7 @@
 /Temp/
 /Obj/
 /Logs/
+/UserSettings/
 
 # Auto-generated project files
 /ProjectSettings/ProjectVersion.txt
@@ -15,6 +16,7 @@
 *.userprefs
 *.pidb
 *.csproj
+*.vs
 
 # OS generated files
 .DS_Store
