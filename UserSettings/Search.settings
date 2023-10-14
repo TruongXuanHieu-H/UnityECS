@@ -4,11 +4,11 @@ fetchPreview = true
 defaultFlags = 0
 keepOpen = false
 queryFolder = "Assets"
-onBoardingDoNotAskAgain = false
+onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.956173B0" = "Debugger"
+	"last_search.956173B0" = "Debug"
 	"OpenInspectorPreview.956173B0" = "0"
 	"currentGroup.956173B0" = "all"
 }
@@ -73,6 +73,7 @@ objectSelectors = {
 }
 recentSearches = [
 	"D"
+	"L"
 ]
 searchItemFavorites = [
 ]
